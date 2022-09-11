@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
 *main - Entry point
-*return: (0)
+*
+*Return: Always 0 (Success)
 */
 int main(void)
 {
@@ -10,8 +11,6 @@ int main(void)
 	long int c;
 	long long int d;
 	float f;
-
-	//sizeof evaluates the size of the data type
 	printf("Size of a char: %lu byte(s)\n", sizeof(a));
 	printf("Size of an int: %lu byte(s)\n", sizeof(b));
 	printf("Size of a long int: %lu byte(s)\n", sizeof(c));
@@ -19,4 +18,3 @@ int main(void)
 	printf("Size of a float: %lu bytes(s)\n", sizeof(f));
 	return (0);
 }
-
